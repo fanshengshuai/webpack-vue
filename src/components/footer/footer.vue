@@ -1,32 +1,34 @@
 <template>
-  <nav class="mui-bar mui-bar-tab">
-    <router-link class="mui-tab-item" to="/home" active-class="mui-active">
-      <span class="mui-icon mui-icon-home"></span>
+  <nav class="mui-bar mui-bar-tab hc-footer">
+    <a class="mui-tab-item mui-active" title="首页" href="/" data-zs_datatp="zs_datatp">
+      <span class="mui-icon iconfont icon-home"></span>
       <span class="mui-tab-label">首页</span>
-    </router-link>
-
-    <router-link class="mui-tab-item" to="/cars" active-class="mui-active">
-      <span class="mui-icon iconfont icon-cheliang">
-        <!-- <span class="mui-badge">9</span> -->
-      </span>
-      <span class="mui-tab-label">车况</span>
-    </router-link>
-
-    <router-link class="mui-tab-item" to="/NewMy" active-class="mui-active">
-      <span class="mui-icon mui-icon-contact"></span>
+    </a>
+    <a class="mui-tab-item" title="测试" href="/fenlei/" data-zs_datatp="zs_datatp">
+      <span class="mui-icon iconfont icon-ceshi"></span>
+      <span class="mui-tab-label">测试</span>
+    </a>
+    <a
+      class="mui-tab-item"
+      title="发现"
+      href="//m.life.httpcn.com/find.shtml"
+      data-zs_datatp="zs_datatp"
+    >
+      <span class="mui-icon iconfont icon-faxian"></span>
+      <span class="mui-tab-label">发现</span>
+    </a>
+    <a class="mui-tab-item" title="开运商城" href="http://m.okbmf.com/" data-zs_datatp="zs_datatp">
+      <span class="mui-icon iconfont icon-cart"></span>
+      <span class="mui-tab-label">开运商城</span>
+    </a>
+    <!--<a class="mui-tab-item" data-url="//m.quan.httpcn.com"><span class="mui-icon hc-footer-ico04"></span><span class="mui-tab-label">汉程圈</span></a>-->
+    <a class="mui-tab-item" title="我的" href="//m.user.httpcn.com/member" data-zs_datatp="zs_datatp">
+      <span class="mui-icon iconfont icon-wo"></span>
       <span class="mui-tab-label">我的</span>
-    </router-link>
-
-    <!-- <a class="mui-tab-item" href="#tabbar-with-map">
-      <span class="mui-icon mui-icon-gear"></span>
-      <span class="mui-tab-label">设置</span>
-    </a>-->
+    </a>
   </nav>
 </template>
 <style>
-.mui-bar-tab .mui-tab-item.mui-active {
-  color: #43b8b4;
-}
 </style>
 
 <script>

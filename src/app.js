@@ -13,11 +13,11 @@ import {
 } from "./util";
 
 
-let ua = window.navigator.userAgent.toLowerCase();
-if (ua.match(/MicroMessenger/i) == "micromessenger") {
-    window.env = "wechat";
-    window.openId = null;
-}
+// let ua = window.navigator.userAgent.toLowerCase();
+// if (ua.match(/MicroMessenger/i) == "micromessenger") {
+//     window.env = "wechat";
+//     window.openId = null;
+// }
 
 // import iView from "iview";
 
@@ -28,6 +28,10 @@ if (ua.match(/MicroMessenger/i) == "micromessenger") {
 // Vue.use(Ionic);
 Vue.use(VueRouter);
 Vue.use(VueResource);
+
+import './test.scss';
+import './iconfont.scss';
+import './style.scss';
 
 import './components/Toast/toast.css';
 import Toast from './components/Toast/index';

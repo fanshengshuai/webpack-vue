@@ -6,19 +6,21 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
     .BundleAnalyzerPlugin;
 
+//var ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 module.exports = {
     mode: "development",
     entry: "./src/app.js",
     plugins: [
         // new BundleAnalyzerPlugin(),
         new VueLoaderPlugin(),
-//         new CleanWebpackPlugin(["output/", "sourcemap"], {
-//             root: __dirname,
-//             //根目录
-//             verbose: true,
-//             //开启在控制台输出信息
-//             dry: false //启用删除文件
-//         }),
+        //         new CleanWebpackPlugin(["output/", "sourcemap"], {
+        //             root: __dirname,
+        //             //根目录
+        //             verbose: true,
+        //             //开启在控制台输出信息
+        //             dry: false //启用删除文件
+        //         }),
         new webpack.HotModuleReplacementPlugin(),
 
         new HtmlWebpackPlugin({
@@ -32,20 +34,21 @@ module.exports = {
                 "theme-color": "#4285f4"
                 // Will generate: <meta name="theme-color" content="#4285f4">
             }
-        })
+        }),
+        // new ExtractTextPlugin("style.css")
     ],
     module: {
         rules: [{
                 test: /\.vue$/,
                 loader: "vue-loader",
                 options: {
-                    loaders: {}
+                    loaders: {
+                        // js: 'babel',
+                        // css: ExtractTextPlugin.extract("css"),
+                        // sass: "css!sass"
+                    }
                     // other vue-loader options go here
                 }
-            },
-            {
-                test: require.resolve("zepto"),
-                loader: "exports-loader?window.Zepto!script-loader"
             },
             {
                 test: /\.js$/,
@@ -62,6 +65,10 @@ module.exports = {
             {
                 test: /\.css$/,
                 loader: "style-loader!css-loader" //添加对样式表的处理
+            },
+            {
+                test: /\.(sass|scss)$/,
+                use: ['style-loader', 'css-loader', 'sass-loader'],
             },
             {
                 test: /\.(woff|svg|eot|ttf)\??.*$/,
@@ -83,7 +90,7 @@ module.exports = {
         // openPage: "index.html",
         compress: true,
         hot: true,
-        // contentBase: "./public/",//本地服务器所加载的页面所在的目录
+        contentBase: "./src/", //本地服务器所加载的页面所在的目录
         historyApiFallback: true, //不跳转
         inline: true, //实时刷新
         noInfo: false,
