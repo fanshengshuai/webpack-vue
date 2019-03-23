@@ -80,7 +80,7 @@ module.exports = {
         host: "0.0.0.0",
         port: 8080,
         open: true,
-        openPage: "jump.html",
+        // openPage: "index.html",
         compress: true,
         hot: true,
         // contentBase: "./public/",//本地服务器所加载的页面所在的目录
@@ -93,7 +93,7 @@ module.exports = {
             aggregateTimeout: 300,
             poll: 1000
         },
-        publicPath: "/wx/",
+        // publicPath: "/wx/",
         headers: {
             "X-Powder": "www.7k999.com"
         },

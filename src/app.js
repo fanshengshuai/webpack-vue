@@ -49,7 +49,7 @@ Vue.use(Toast);
 
 
 console.log("app --> check auth")
-auth.check();
+// auth.check();
 
 
 const router = new VueRouter({

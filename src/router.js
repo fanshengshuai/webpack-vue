@@ -23,88 +23,10 @@ export default function(router) {
             component: Home
         },
         {
-            name: "/cars",
-            path: "/cars",
-            component: Chekuang,
-            meta: {
-                requiresAuth: true
-            }
-        },
-        {
-            name: "/car/edit",
-            path: "/car/edit",
-            component: CarEdit,
-            meta: {
-                requiresAuth: true
-            }
-        },
-        {
-            name: "/car_wz",
-            path: "/car_wz",
-            component: Wz,
-            meta: {
-                requiresAuth: true
-            }
-        },
-        {
-            name: "/car_wl",
-            path: "/car_wl",
-            component: Wl,
-            meta: {
-                requiresAuth: true
-            }
-        },
-        {
             path: "/my",
             component: My,
             meta: {
                 requiresAuth: true
-            }
-        },
-        {
-            path: "/test",
-            component: Test
-        },
-        {
-            path: "/author",
-            component: Author
-        },
-        {
-            path: "/car/driveInfo",
-            component: Todaydrive,
-            meta: {
-                requiresAuth: true
-            }
-        },
-        {
-            path: "/traillist",
-            component: TrailList,
-            meta: {
-                requiresAuth: true
-            }
-        },
-        {
-            name: "/wl/detail",
-            path: "/wl/detail",
-            component: Wldetail,
-            meta: {
-                requiresAuth: true
-            }
-        },
-        {
-            name: "/NewHome",
-            path: "/NewHome",
-            component: NewHome,
-            meta: {
-                requiresAuth: false
-            }
-        },
-        {
-            name: "/NewMy",
-            path: "/NewMy",
-            component: NewMy,
-            meta: {
-                requiresAuth: false
             }
         }
     ];
