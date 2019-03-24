@@ -111,16 +111,16 @@ module.exports = {
         historyApiFallback: true,
         proxy: {
             "/car/*": {
-                target: "http://sdb.kuboluo.com/",
+                target: "http://localhost:81/",
                 secure: false,
                 changeOrigin: true
             },
-            "/res": {
-                target: "http://sdb.kuboluo.com/res",
+            "/Content": {
+                target: "http://localhost:81/Content",
                 secure: false,
                 changeOrigin: true,
                 pathRewrite: {
-                    "^/res": ""
+                    "^/Content": ""
                 }
             }
         }

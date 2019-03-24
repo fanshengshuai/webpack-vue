@@ -37,6 +37,10 @@ import './components/Toast/toast.css';
 import Toast from './components/Toast/index';
 Vue.use(Toast);
 
+import Footer from "./components/footer/footer.vue";
+
+Vue.component("page-footer", Footer);
+
 
 
 

@@ -3,7 +3,7 @@
     <div class>
       <div class="httpcn_main_pic">
         <a href="/sjhm/" data-zs_datatp="zs_datatp">
-          <img src="images/mainpic/sjhm.jpg" alt="手机号码测吉凶" title="手机号码测吉凶">
+          <img src="assets/images/mainpic/sjhm.jpg" alt="手机号码测吉凶" title="手机号码测吉凶">
         </a>
       </div>
       <form class="hc-input-group">
@@ -155,7 +155,7 @@
       <div class="hc-cs-title btd">
         相关测试
         <span class="mui-pull-right">
-          <a href="//m.life.httpcn.com/zt/haoma/" data-zs_datatp="zs_datatp">更多</a>
+          <a href="#" data-zs_datatp="zs_datatp">更多</a>
         </span>
       </div>
       <div class="mui-clearfix" style="background:#F1E9D4;">
@@ -163,7 +163,7 @@
           <li class="mui-table-view-cell mui-pull-left mui-col-xs-6">
             <a
               class="mui-navigate-right"
-              href="//m.life.httpcn.com/cphm/"
+              href="#"
               title="车牌号码测吉凶"
               data-zs_datatp="zs_datatp"
             >车牌号码测吉凶</a>
@@ -171,7 +171,7 @@
           <li class="mui-table-view-cell mui-pull-left mui-col-xs-6">
             <a
               class="mui-navigate-right"
-              href="//m.life.httpcn.com/vipsjhm/"
+              href="#"
               title="选全吉手机号码"
               data-zs_datatp="zs_datatp"
             >选全吉手机号码</a>
@@ -179,7 +179,7 @@
           <li class="mui-table-view-cell mui-pull-left mui-col-xs-6">
             <a
               class="mui-navigate-right"
-              href="//m.life.httpcn.com/qqhm/"
+              href="#"
               title="QQ号码测吉凶"
               data-zs_datatp="zs_datatp"
             >QQ号码测吉凶</a>
@@ -187,7 +187,7 @@
           <li class="mui-table-view-cell mui-pull-left mui-col-xs-6">
             <a
               class="mui-navigate-right"
-              href="//m.life.httpcn.com/dhhm/"
+              href="#"
               title="电话号码测吉凶"
               data-zs_datatp="zs_datatp"
             >电话号码测吉凶</a>
@@ -195,7 +195,7 @@
           <li class="mui-table-view-cell mui-pull-left mui-col-xs-6">
             <a
               class="mui-navigate-right"
-              href="//m.life.httpcn.com/400hm/"
+              href="#"
               title="400号码测吉凶"
               data-zs_datatp="zs_datatp"
             >400号码测吉凶</a>
@@ -203,7 +203,7 @@
           <li class="mui-table-view-cell mui-pull-left mui-col-xs-6">
             <a
               class="mui-navigate-right"
-              href="//m.life.httpcn.com/haomamore/"
+              href="#"
               title="批量号码测试"
               data-zs_datatp="zs_datatp"
             >批量号码测试</a>
@@ -211,7 +211,7 @@
           <li class="mui-table-view-cell mui-pull-left mui-col-xs-6">
             <a
               class="mui-navigate-right"
-              href="//m.life.httpcn.com/cphmmore/"
+              href="#"
               title="批量测车牌号码"
               data-zs_datatp="zs_datatp"
             >批量测车牌号码</a>
@@ -219,7 +219,7 @@
           <li class="mui-table-view-cell mui-pull-left mui-col-xs-6">
             <a
               class="mui-navigate-right"
-              href="//m.life.httpcn.com/vipcphm/"
+              href="#"
               title="选全吉车牌号码"
               data-zs_datatp="zs_datatp"
             >选全吉车牌号码</a>
@@ -245,7 +245,7 @@
       <div class="hc-cs-title btd">
         测试分类
         <span class="mui-pull-right">
-          <a href="//m.life.httpcn.com/fenlei/" data-zs_datatp="zs_datatp">更多</a>
+          <a href="#" data-zs_datatp="zs_datatp">更多</a>
         </span>
       </div>
       <div
@@ -254,92 +254,92 @@
       >
         <ul class="mui-clearfix">
           <li>
-            <a title="八字" href="//m.life.httpcn.com/zt/bazi/" data-zs_datatp="zs_datatp">
-              <img src="images/fenlei/small/fenlei_bazi.png" alt="八字">
+            <a title="八字" href="#" data-zs_datatp="zs_datatp">
+              <img src="assets/images/fenlei/small/fenlei_bazi.png" alt="八字">
               <span>八字</span>
             </a>
           </li>
           <li>
-            <a title="姓名" href="//m.life.httpcn.com/zt/xingming/" data-zs_datatp="zs_datatp">
-              <img src="images/fenlei/small/fenlei_xingming.png" alt="姓名">
+            <a title="姓名" href="#" data-zs_datatp="zs_datatp">
+              <img src="assets/images/fenlei/small/fenlei_xingming.png" alt="姓名">
               <span>姓名</span>
             </a>
           </li>
           <li>
-            <a title="号码" href="//m.life.httpcn.com/zt/haoma/" data-zs_datatp="zs_datatp">
-              <img src="images/fenlei/small/fenlei_haoma.png" alt="号码">
+            <a title="号码" href="#" data-zs_datatp="zs_datatp">
+              <img src="assets/images/fenlei/small/fenlei_haoma.png" alt="号码">
               <span>号码</span>
             </a>
           </li>
           <li>
-            <a title="运势" href="//m.life.httpcn.com/zt/yunshi/" data-zs_datatp="zs_datatp">
-              <img src="images/fenlei/small/fenlei_yunshi.png" alt="运势">
+            <a title="运势" href="#" data-zs_datatp="zs_datatp">
+              <img src="assets/images/fenlei/small/fenlei_yunshi.png" alt="运势">
               <span>运势</span>
             </a>
           </li>
           <li>
             <a title="解梦" href="/jiemeng/" data-zs_datatp="zs_datatp">
-              <img src="images/fenlei/small/fenlei_jiemeng.png" alt="解梦">
+              <img src="assets/images/fenlei/small/fenlei_jiemeng.png" alt="解梦">
               <span>解梦</span>
             </a>
           </li>
           <li>
-            <a title="配对" href="//m.life.httpcn.com/zt/peidui/" data-zs_datatp="zs_datatp">
-              <img src="images/fenlei/small/fenlei_peidui.png" alt="配对">
+            <a title="配对" href="#" data-zs_datatp="zs_datatp">
+              <img src="assets/images/fenlei/small/fenlei_peidui.png" alt="配对">
               <span>配对</span>
             </a>
           </li>
           <li>
-            <a title="星座" href="//m.life.httpcn.com/zt/xingzuo/" data-zs_datatp="zs_datatp">
-              <img src="images/fenlei/small/fenlei_xingzuo.png" alt="星座">
+            <a title="星座" href="#" data-zs_datatp="zs_datatp">
+              <img src="assets/images/fenlei/small/fenlei_xingzuo.png" alt="星座">
               <span>星座</span>
             </a>
           </li>
           <li>
-            <a title="生肖" href="//m.life.httpcn.com/zt/shengxiao/" data-zs_datatp="zs_datatp">
-              <img src="images/fenlei/small/fenlei_shengxiao.png" alt="生肖">
+            <a title="生肖" href="#" data-zs_datatp="zs_datatp">
+              <img src="assets/images/fenlei/small/fenlei_shengxiao.png" alt="生肖">
               <span>生肖</span>
             </a>
           </li>
           <li>
-            <a title="风水" href="//m.life.httpcn.com/zt/fengshui/" data-zs_datatp="zs_datatp">
-              <img src="images/fenlei/small/fenlei_fengshui.png" alt="风水">
+            <a title="风水" href="#" data-zs_datatp="zs_datatp">
+              <img src="assets/images/fenlei/small/fenlei_fengshui.png" alt="风水">
               <span>风水</span>
             </a>
           </li>
           <li>
-            <a title="抽签" href="//m.life.httpcn.com/zt/chouqian/" data-zs_datatp="zs_datatp">
-              <img src="images/fenlei/small/fenlei_chouqian.png" alt="抽签">
+            <a title="抽签" href="#" data-zs_datatp="zs_datatp">
+              <img src="assets/images/fenlei/small/fenlei_chouqian.png" alt="抽签">
               <span>抽签</span>
             </a>
           </li>
           <li>
-            <a title="黄历" href="//m.life.httpcn.com/zt/huangli/" data-zs_datatp="zs_datatp">
-              <img src="images/fenlei/small/fenlei_huangli.png" alt="黄历">
+            <a title="黄历" href="#" data-zs_datatp="zs_datatp">
+              <img src="assets/images/fenlei/small/fenlei_huangli.png" alt="黄历">
               <span>黄历</span>
             </a>
           </li>
           <li>
-            <a title="相学" href="//m.life.httpcn.com/zt/xiangxue/" data-zs_datatp="zs_datatp">
-              <img src="images/fenlei/small/fenlei_xiangxue.png" alt="相学">
+            <a title="相学" href="#" data-zs_datatp="zs_datatp">
+              <img src="assets/images/fenlei/small/fenlei_xiangxue.png" alt="相学">
               <span>相学</span>
             </a>
           </li>
           <li>
-            <a title="占卜" href="//m.life.httpcn.com/zt/zhanbu/" data-zs_datatp="zs_datatp">
-              <img src="images/fenlei/small/fenlei_zhanbu.png" alt="占卜">
+            <a title="占卜" href="#" data-zs_datatp="zs_datatp">
+              <img src="assets/images/fenlei/small/fenlei_zhanbu.png" alt="占卜">
               <span>占卜</span>
             </a>
           </li>
           <li>
-            <a title="性格" href="//m.life.httpcn.com/zt/xingge/" data-zs_datatp="zs_datatp">
-              <img src="images/fenlei/small/fenlei_xingge.png" alt="性格">
+            <a title="性格" href="#" data-zs_datatp="zs_datatp">
+              <img src="assets/images/fenlei/small/fenlei_xingge.png" alt="性格">
               <span>性格</span>
             </a>
           </li>
           <li>
-            <a title="排盘" href="//m.life.httpcn.com/zt/paipan/" data-zs_datatp="zs_datatp">
-              <img src="images/fenlei/small/fenlei_paipan.png" alt="排盘">
+            <a title="排盘" href="#" data-zs_datatp="zs_datatp">
+              <img src="assets/images/fenlei/small/fenlei_paipan.png" alt="排盘">
               <span>排盘</span>
             </a>
           </li>
@@ -394,13 +394,13 @@
       <div class="hc-cs-title">
         推荐测试
         <span class="mui-pull-right">
-          <a href="//m.life.httpcn.com/fenlei/" title="算命大全" data-zs_datatp="zs_datatp">更多</a>
+          <a href="#" title="算命大全" data-zs_datatp="zs_datatp">更多</a>
         </span>
       </div>
       <ul class="shequ-ceshi-list mui-clearfix" data-tg="type:2,isnq:1,index:-1" data-tgkey>
         <li>
-          <a title="八字算命" href="//m.life.httpcn.com/bazi/" data-zs_datatp="zs_datatp">
-            <img class="mui-pull-left" src="images/iconpng/bazi.png">
+          <a title="八字算命" href="#" data-zs_datatp="zs_datatp">
+            <img class="mui-pull-left" src="assets/images/iconpng/bazi.png">
             <div class="mui-media-body">
               <h3 class="mui-ellipsis">八字算命</h3>
               <p class="mui-ellipsis-2 font12">2万多字，可媲美绝大部分收费测试，包括八字排盘、五行分析、命局分析及喜用神以及通俗易懂的解释。</p>
@@ -408,8 +408,8 @@
           </a>
         </li>
         <li>
-          <a title="姓名测试打分" href="//m.life.httpcn.com/xingming/" data-zs_datatp="zs_datatp">
-            <img class="mui-pull-left" src="images/iconpng/xingming.png">
+          <a title="姓名测试打分" href="#" data-zs_datatp="zs_datatp">
+            <img class="mui-pull-left" src="assets/images/iconpng/xingming.png">
             <div class="mui-media-body">
               <h3 class="mui-ellipsis">姓名测试打分</h3>
               <p class="mui-ellipsis-2 font12">结合生辰八字、五格数理、三才、五格互动、形家四运、五行、汉字音形义等进行姓名测试打分。</p>
@@ -417,8 +417,8 @@
           </a>
         </li>
         <li>
-          <a title="手机号码测吉凶" href="//m.life.httpcn.com/sjhm/" data-zs_datatp="zs_datatp">
-            <img class="mui-pull-left" src="images/iconpng/sjhm.png">
+          <a title="手机号码测吉凶" href="#" data-zs_datatp="zs_datatp">
+            <img class="mui-pull-left" src="assets/images/iconpng/sjhm.png">
             <div class="mui-media-body">
               <h3 class="mui-ellipsis">手机号码测吉凶</h3>
               <p class="mui-ellipsis-2 font12">功能强大的结合生辰八字、81数理、易经数字占签等方式对手机号码吉凶进行综合预测的专业级系统。</p>
@@ -426,8 +426,8 @@
           </a>
         </li>
         <li>
-          <a title="八字财运测试" href="//m.life.httpcn.com/bzcaiyun/" data-zs_datatp="zs_datatp">
-            <img class="mui-pull-left" src="images/iconpng/bzcaiyun.png">
+          <a title="八字财运测试" href="#" data-zs_datatp="zs_datatp">
+            <img class="mui-pull-left" src="assets/images/iconpng/bzcaiyun.png">
             <div class="mui-media-body">
               <h3 class="mui-ellipsis">八字财运测试</h3>
               <p class="mui-ellipsis-2 font12">包括先天财运分析、一生财运起伏图、一生财运分析、最近几年财运测试及得分、最近几年破财分析等。</p>
@@ -435,8 +435,8 @@
           </a>
         </li>
         <li>
-          <a title="八字婚姻测试" href="//m.life.httpcn.com/bzhunyin/" data-zs_datatp="zs_datatp">
-            <img class="mui-pull-left" src="images/iconpng/bzhunyin.png">
+          <a title="八字婚姻测试" href="#" data-zs_datatp="zs_datatp">
+            <img class="mui-pull-left" src="assets/images/iconpng/bzhunyin.png">
             <div class="mui-media-body">
               <h3 class="mui-ellipsis">八字婚姻测试</h3>
               <p class="mui-ellipsis-2 font12">八字婚姻缘份、八字婚姻批命、配偶个性及特征、适合的对象、异性缘桃花运、恋爱结婚时机、旺姻缘法等。</p>
@@ -444,8 +444,8 @@
           </a>
         </li>
         <li>
-          <a title="住宅风水测试" href="//m.life.httpcn.com/fscs/" data-zs_datatp="zs_datatp">
-            <img class="mui-pull-left" src="images/iconpng/fscs.png">
+          <a title="住宅风水测试" href="#" data-zs_datatp="zs_datatp">
+            <img class="mui-pull-left" src="assets/images/iconpng/fscs.png">
             <div class="mui-media-body">
               <h3 class="mui-ellipsis">住宅风水测试</h3>
               <p class="mui-ellipsis-2 font12">根据八字和风水学理论，从八字、命卦、宅卦、流年、布局等多个维度量身分析，既严谨专业，又通俗易懂。</p>
@@ -453,8 +453,8 @@
           </a>
         </li>
         <li>
-          <a title="汉程黄历查询" href="//m.life.httpcn.com/huangli/" data-zs_datatp="zs_datatp">
-            <img class="mui-pull-left" src="images/iconpng/huangli.png">
+          <a title="汉程黄历查询" href="#" data-zs_datatp="zs_datatp">
+            <img class="mui-pull-left" src="assets/images/iconpng/huangli.png">
             <div class="mui-media-body">
               <h3 class="mui-ellipsis">汉程黄历查询</h3>
               <p class="mui-ellipsis-2 font12">汉程黄历包含每日宜忌、合害、吉时、干支、纳音、十二神、值日、冲煞、胎神、彭祖百忌、吉神凶煞等50余项信息。</p>
@@ -462,8 +462,8 @@
           </a>
         </li>
         <li>
-          <a title="每天星座运势" href="//m.life.httpcn.com/xzys/" data-zs_datatp="zs_datatp">
-            <img class="mui-pull-left" src="images/iconpng/xzys.png">
+          <a title="每天星座运势" href="#" data-zs_datatp="zs_datatp">
+            <img class="mui-pull-left" src="assets/images/iconpng/xzys.png">
             <div class="mui-media-body">
               <h3 class="mui-ellipsis">每天星座运势</h3>
               <p class="mui-ellipsis-2 font12">包括今日、明日、本周、本月、今年运势，含运势指数、综合运势、爱情、事业、学业、健康、财运等。</p>
@@ -503,7 +503,7 @@
         缘友评论
         <span class="mui-pull-right">
           <a
-            href="//m.life.httpcn.com/comment/more.shtml?key=sjhm&amp;sign=1034A2F2150DB3E6FD50D86F69F0F717&amp;app_name=%e6%89%8b%e6%9c%ba%e5%8f%b7%e7%a0%81%e6%b5%8b%e5%90%89%e5%87%b6"
+            href="#"
             data-zs_datatp="zs_datatp"
           >更多</a>
         </span>
@@ -523,7 +523,7 @@
           <li>
             <div class="left photo">
               <a
-                href="//m.quan.httpcn.com/Zone/b6abc8b6e5e5488db15399c9d171e296"
+                href="#"
                 data-zs_datatp="zs_datatp"
               >
                 <img src="http://imgcdn.httpcn.com/upload/public/4.jpg">
@@ -533,7 +533,7 @@
               <div class="hc-clear">
                 <span class="left">
                   <a
-                    href="//m.quan.httpcn.com/Zone/b6abc8b6e5e5488db15399c9d171e296"
+                    href="#"
                     data-zs_datatp="zs_datatp"
                   >
                     紫气东来99
@@ -565,7 +565,7 @@
           <li>
             <div class="left photo">
               <a
-                href="//m.quan.httpcn.com/Zone/0a32207bb3a64431bdd1e1b0c48734a0"
+                href="#"
                 data-zs_datatp="zs_datatp"
               >
                 <img src="http://imgcdn.httpcn.com/upload/public/7.jpg">
@@ -575,7 +575,7 @@
               <div class="hc-clear">
                 <span class="left">
                   <a
-                    href="//m.quan.httpcn.com/Zone/0a32207bb3a64431bdd1e1b0c48734a0"
+                    href="#"
                     data-zs_datatp="zs_datatp"
                   >
                     drxiao
@@ -607,7 +607,7 @@
           <li>
             <div class="left photo">
               <a
-                href="//m.quan.httpcn.com/Zone/0a32207bb3a64431bdd1e1b0c48734a0"
+                href="#"
                 data-zs_datatp="zs_datatp"
               >
                 <img src="http://imgcdn.httpcn.com/upload/public/7.jpg">
@@ -617,7 +617,7 @@
               <div class="hc-clear">
                 <span class="left">
                   <a
-                    href="//m.quan.httpcn.com/Zone/0a32207bb3a64431bdd1e1b0c48734a0"
+                    href="#"
                     data-zs_datatp="zs_datatp"
                   >
                     drxiao
@@ -649,7 +649,7 @@
           <li>
             <div class="left photo">
               <a
-                href="//m.quan.httpcn.com/Zone/9195a3e2b50247f2828c5891a1c4b1f3"
+                href="#"
                 data-zs_datatp="zs_datatp"
               >
                 <img
@@ -661,7 +661,7 @@
               <div class="hc-clear">
                 <span class="left">
                   <a
-                    href="//m.quan.httpcn.com/Zone/9195a3e2b50247f2828c5891a1c4b1f3"
+                    href="#"
                     data-zs_datatp="zs_datatp"
                   >
                     汉程生活
@@ -695,7 +695,7 @@
           <li>
             <div class="left photo">
               <a
-                href="//m.quan.httpcn.com/Zone/9195a3e2b50247f2828c5891a1c4b1f3"
+                href="#"
                 data-zs_datatp="zs_datatp"
               >
                 <img
@@ -707,7 +707,7 @@
               <div class="hc-clear">
                 <span class="left">
                   <a
-                    href="//m.quan.httpcn.com/Zone/9195a3e2b50247f2828c5891a1c4b1f3"
+                    href="#"
                     data-zs_datatp="zs_datatp"
                   >
                     汉程生活
@@ -766,9 +766,9 @@
 
       <div class="hc-up-link">
         <a href="/" data-zs_datatp="zs_datatp">返回首页</a>
-        <a href="//m.user.httpcn.com/member/" data-zs_datatp="zs_datatp">登录</a>
-        <a href="//m.user.httpcn.com/member/" data-zs_datatp="zs_datatp">注册</a>
-        <a href="//m.user.httpcn.com/member/fankui" data-zs_datatp="zs_datatp">用户反馈</a>
+        <a href="#" data-zs_datatp="zs_datatp">登录</a>
+        <a href="#" data-zs_datatp="zs_datatp">注册</a>
+        <a href="#" data-zs_datatp="zs_datatp">用户反馈</a>
       </div>
     </div>
     <div class="mui-off-canvas-backdrop"></div>

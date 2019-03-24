@@ -14,6 +14,12 @@ var config = merge(webpackConfig, {
         chunkFilename: "[name].[chunkhash:5].chunk.js"
     },
 
+    resolveLoader: {
+        alias: {
+            'scss-loader': 'sass-loader',
+        },
+    },
+
     optimization: {
         minimizer: [
             new UglifyJsPlugin({
@@ -85,9 +91,11 @@ config.module.rules = [{
         loader: "vue-loader",
         options: {
             loaders: {
+                // scss: 'style-loader!css-loader!sass-loader',
+                // sass: 'style-loader!css-loader!sass-loader?indentedSyntax',
                 // js: 'babel',
                 css: [MiniCssExtractPlugin.loader, "css-loader"],
-                sass:  [MiniCssExtractPlugin.loader, 'css-loader', 'scss-loader']
+                sass: [MiniCssExtractPlugin.loader, 'css-loader', 'scss-loader']
             }
             // other vue-loader options go here
         }

@@ -1,0 +1,298 @@
+<template>
+  <div class="qiandao-page">
+    <header class="mui-bar mui-bar-nav member-bar">
+      <router-link class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" to="/my"></router-link>
+      <h1 class="mui-title">签到</h1>
+    </header>
+
+    <div class="mui-content">
+      <div class="member-bj">
+        <div class="member-jb-num">
+          <p>汉点(积分)</p>
+          <span id="hqjf">30</span>
+        </div>
+      </div>
+      <div class="qiandao-biao">
+        <div class="xq mui-clearfix">
+          <span>日</span>
+          <span>一</span>
+          <span>二</span>
+          <span>三</span>
+          <span>四</span>
+          <span>五</span>
+          <span>六</span>
+        </div>
+        <ul class="date mui-clearfix" id="ul_mui">
+          <li>
+            <figure></figure>
+          </li>
+          <li>
+            <figure></figure>
+          </li>
+          <li>
+            <figure></figure>
+          </li>
+          <li>
+            <figure></figure>
+          </li>
+          <li>
+            <figure></figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>1</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>2</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>3</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>4</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>5</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>6</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>7</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>8</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>9</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>10</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>11</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>12</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>13</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>14</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>15</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>16</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>17</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>18</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>19</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>20</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>21</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>22</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>23</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure class="taday">
+              <span>
+                <em>24</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>25</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>26</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>27</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>28</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>29</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <span>
+                <em>30</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure class="taday active">
+              <span>
+                <em>31</em>
+              </span>
+            </figure>
+          </li>
+          <li>
+            <figure></figure>
+          </li>
+          <li>
+            <figure></figure>
+          </li>
+          <li>
+            <figure></figure>
+          </li>
+          <li>
+            <figure></figure>
+          </li>
+        </ul>
+      </div>
+      <div class="user-h-padd">
+        <button id="qdok" class="mui-btn qiandao-btn">我要签到</button>
+      </div>
+
+      <div class="user-h-padd">
+        <button id="qdok" class="mui-btn qiandao-btn-no">今日已签到</button>
+      </div>
+
+      <div class="txtc" id="txtcd">
+        已经连续签到第0天~
+        <br>今天签到可获得积分+1,成长值+1
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "",
+  data() {
+    return {};
+  }
+};
+</script>
+
+<style lang="" scoped>
+</style>
