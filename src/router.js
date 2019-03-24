@@ -8,12 +8,11 @@ const Find = r => require.ensure([], () => r(require("./Find.vue")), "Find");
 const PhoneNum = r => require.ensure([], () => r(require("./PhoneNum.vue")), "PhoneNum");
 const PhoneResult = r => require.ensure([], () => r(require("./PhoneResult.vue")), "PhoneResult");
 
-import My from "./My.vue";
 const MyProfile = r => require.ensure([], () => r(require("./MyProfile.vue")), "MyProfile");
 const QianDao = r => require.ensure([], () => r(require("./QianDao.vue")), "QianDao");
 const MyChangePasswd = r => require.ensure([], () => r(require("./MyChangePasswd.vue")), "MyChangePasswd");
 
-import Author from "./Author.vue";
+// import Author from "./Author.vue";
 import store from "./store";
 
 /**
@@ -60,7 +59,7 @@ export default function(router) {
         },
         {
             path: "/my",
-            component: My,
+            component: r => require.ensure([], () => r(require("./My.vue")), "my"),
             meta: {
                 requiresAuth: false
             }
@@ -78,15 +77,15 @@ export default function(router) {
 
     router.addRoutes(routerConfig);
 
-    router.beforeEach((to, from, next) => {
-        if (to.matched.some(record => record.meta.requiresAuth)) {
-            if (store.getters.userData == null) {
-                sessionStorage.setItem("beforeLoginUrl", to.fullPath);
-                next("/author");
-                return false;
-            }
-        }
+    // router.beforeEach((to, from, next) => {
+    //     if (to.matched.some(record => record.meta.requiresAuth)) {
+    //         if (store.getters.userData == null) {
+    //             sessionStorage.setItem("beforeLoginUrl", to.fullPath);
+    //             next("/author");
+    //             return false;
+    //         }
+    //     }
 
-        next();
-    });
+    //     next();
+    // });
 }
