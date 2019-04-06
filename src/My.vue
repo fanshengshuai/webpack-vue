@@ -123,8 +123,9 @@
       </ul>-->
       <!--栏目列表/-->
       <div style="height: 30px;"></div>
-      <page-footer></page-footer>
+      
     </div>
+    <page-footer></page-footer>
   </div>
 </template>
 
